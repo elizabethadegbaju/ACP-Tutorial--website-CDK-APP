@@ -26,18 +26,20 @@ Ensure you have the following installed:
 - **Node.js** ([Download](https://nodejs.org/))  
 
 ### Setup  
-1. **Clone the repository:**  
+1. **Fork the repository**
+
+2. **Clone the repository:**  
 ```bash
 git clone https://github.com/yourusername/aws-101-cdk.git
 cd aws-101-cdk
 ```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
 ```bash
 npm install
 ```
 
-3. **Bootstrap AWS CDK in your AWS account:**
+4. **Bootstrap AWS CDK in your AWS account:**
 ```bash
 cdk bootstrap
 ```
