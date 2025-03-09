@@ -170,5 +170,8 @@ dnf update -y`)
       port: 80,
       protocol: elbv2.ApplicationProtocol.HTTP
     })
+
+    // allows all ASG instances to access s3 bucket
+    bucket.grantRead(autoScalingGroup)
   }
 }
